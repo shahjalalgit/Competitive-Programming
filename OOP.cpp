@@ -38,7 +38,7 @@ public:
             cout<< Name << " sorry NO protion for you!"<<endl;
         }
     }
-    virtual void work(){
+    virtual void work(){    // Here, Virtual use for reference polymorphisum
         cout<< Name<< " is checking email, performing tasks..."<<endl;
     }
     
