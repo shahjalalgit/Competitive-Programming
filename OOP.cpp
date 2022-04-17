@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-class AbstructEmployee{                // Abstruct Class
-    virtual void AskForPromotion()=0; // Abstruct Function
+class AbstractEmployee{                // Abstract Class
+    virtual void AskForPromotion()=0; // Abstract Function
 };
 
-class Employee:AbstructEmployee{
+class Employee:AbstractEmployee{
 private:
     string Company;
     int Age;
@@ -52,7 +52,7 @@ public:
     }
     void Fixbug(){
         // cout<< getName() << " fix bug using "<<FavProgrammingLanguage<<endl;
-        cout<< Name << " fix bug using "<<FavProgrammingLanguage<<endl; //Here, Name, accessable beacuse Name is protected.
+        cout<< Name << " fix bug using "<<FavProgrammingLanguage<<endl; //Here, Name, accessable because Name is protected.
     }
     void work(){
         cout<< Name<< " is writting code in "<< FavProgrammingLanguage <<endl;
