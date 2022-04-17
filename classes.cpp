@@ -13,6 +13,7 @@ int main () {
   Circle bar = 20.0;   // assignment init.
   Circle baz {30.0};   // uniform init.
   Circle qux = {40.0}; // POD-like
+  Circle foo = Circle(10.0);
 
   cout << "foo's circumference: " << foo.circum() << '\n';
   return 0;

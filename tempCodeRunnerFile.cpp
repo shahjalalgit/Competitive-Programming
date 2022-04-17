@@ -1,2 +1,5 @@
-cin.ignore();
-    // getline(cin, str);
+t.Preparelesson();
+    t.AskForPromotion();
+
+    polymorphisum
+    d.work();
